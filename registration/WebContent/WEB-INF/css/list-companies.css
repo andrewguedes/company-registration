@@ -1,0 +1,35 @@
+.ul-container{
+    margin: 0.25em;
+    border-radius: 0.25em;
+    color: rgb(119, 89, 89);
+    box-shadow: 0.5px 0.5px 7px rgb(143, 127, 127);
+}
+.li-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    margin: 1em auto;
+}
+.li-container .li-label{
+    flex-basis: 14em;
+}
+.li-container .li-date{
+    flex-basis: 6em;
+}
+.li-container .li-edit{
+    flex-basis: 2em;
+    padding: 0 1em;
+}
+.li-container .li-remove{
+    flex-basis: 2em;
+}
+
+@media(min-width:650px){
+    .ul-container{
+        width: 60%;
+        margin: 5% auto;
+    }
+    .li-container .li-label{
+        flex-basis: 50%;
+    }
+}

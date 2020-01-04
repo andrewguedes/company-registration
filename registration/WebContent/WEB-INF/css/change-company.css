@@ -1,0 +1,54 @@
+.form-change-company{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 0.5px 0.5px 7px rgb(143, 127, 127);
+}
+.form-change-company:hover{
+    box-shadow: 2px 2px 12px rgb(163, 128, 128);
+}
+.form-change-company .form-label{
+    margin: 0.25em;
+    font-size: 1em;
+    font-weight: bold;
+    align-self: flex-start;
+    color: rgb(119, 89, 89);
+}
+.form-change-company .form-input{
+    margin: 0.25em;
+    padding: 0.25em;
+    border-radius: 0.30em;
+    border-style: unset;
+    text-decoration: none;
+    font-size: 1.25em;
+    background: rgb(241, 240, 240);
+    color: rgb(119, 89, 89);
+}
+.form-change-company .form-button{
+    margin: 0.25em;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    text-decoration: none;
+    background-color: rgb(250, 248, 248);
+    font-weight: bold;
+    font-size: 1em;
+    border-style: unset;
+    color: rgb(119, 89, 89);
+    align-self: flex-end;
+    transition: background-color 0.5s;
+    border-bottom: 1px solid rgb(192, 186, 186);
+}
+.form-change-company .form-button:hover{
+    background-color: rgb(218, 191, 191);
+    color: rgb(255, 242, 242);
+}
+@media(min-width:650px){
+    .form-change-company{
+        width: 50%;
+        margin: 10% auto;
+        align-content: flex-start;
+    }
+
+}

@@ -1,0 +1,18 @@
+.nav-menu{
+    padding: 1em;
+}
+.nav-menu .container-menu{
+    margin: 1em  0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-menu .li-menu .a-menu{
+    text-decoration: none;
+    font-size: 1.25em;
+    color: rgb(119, 89, 89);
+}
+
+.container-menu .li-menu .a-menu:hover{
+    box-shadow: 0 5px 6px -6px rgb(112, 84, 84);;
+}
